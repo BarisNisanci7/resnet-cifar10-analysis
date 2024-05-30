@@ -2,21 +2,6 @@
 
 This repository contains my implementation of CIFAR-10 classification using a ResNet model with bottleneck residual blocks, as well as experiments with different training dynamics and transfer learning using a pre-trained ResNet-50.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-  - [Bottleneck Residual Block](#bottleneck-residual-block)
-  - [CNN Model](#cnn-model)
-- [Training](#training)
-  - [SGD with Momentum and L2 Regularization](#sgd-with-momentum-and-l2-regularization)
-  - [ADAM with Weight Decay](#adam-with-weight-decay)
-  - [Learning Rate Scheduling](#learning-rate-scheduling)
-- [Transfer Learning](#transfer-learning)
-- [Results](#results)
-- [Usage](#usage)
-- [Conclusion](#conclusion)
-
 ## Introduction
 This project aims to classify images from the CIFAR-10 dataset using a Convolutional Neural Network (CNN) with bottleneck residual blocks, inspired by the ResNet architecture. Additionally, different training dynamics and transfer learning approaches are explored to optimize performance.
 

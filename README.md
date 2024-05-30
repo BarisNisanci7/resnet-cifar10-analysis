@@ -49,17 +49,3 @@ Transfer learning is applied using a pre-trained ResNet-50 model. All layers are
 ## Results
 The training and validation performance are monitored and visualized through learning and generalization curves. The best architecture and hyperparameters are reported.
 
-## Usage
-To run the code and train the model, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cifar10-resnet.git
-   cd cifar10-resnet
-   
-2. Install the required packages:
-  pip install -r requirements.txt
-
-3. Run the training script:
-  python train.py
-
